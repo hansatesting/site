@@ -1,0 +1,35 @@
+<?php require_once('connection.php'); ?>
+
+
+<?php
+
+//first get the post variable on the page
+
+$promo_name = (($_POST['promoname']));
+$product_name = (($_POST['productname']));
+$discount = (($_POST['discount']));
+$promotion_content = (($_POST['promocontent']));
+$image = (($_POST['image']));
+
+
+$query = "INSERT INTO promo(promo_name, product_name, discount, promotion_content, image ) 
+		  VALUES ('{$promo_name}', '{$product_name}', '{$discount}', '{$promotion_content}', '{$image}')";
+
+
+//echo $query; die;
+
+		$result = mysqli_query($connection,$query);
+
+       if($result) {
+           
+          echo "Item added Successfully";
+          
+       }else{
+           
+          echo "Database query failed.";
+       }
+        
+ ?>
+ 
+<?php mysqli_close($connection); ?>
+				

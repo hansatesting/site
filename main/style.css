@@ -1,0 +1,388 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    .intro-2 {
+        background: url('../Images/c6135548ce52cfc6eff2d3984f923cbe.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    .top-nav-collapse {
+        background-color: #3f51b5 !important;
+    }
+    .navbar:not(.top-nav-collapse) {
+        background: transparent !important;
+    }
+    @media (max-width: 768px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #3f51b5 !important;
+        }
+    }
+    .hm-gradient .full-bg-img {
+        background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
+        background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
+        background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+    }
+    .card {
+        background-color: rgba(229, 228, 255, 0.2);
+    }
+    
+     .md-form .prefix {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .md-form label {
+        color: #ffffff;
+    }
+    h6 {
+        line-height: 1.7;
+    }
+    @media (max-width: 740px) {
+        .full-height,
+        .full-height body,
+        .full-height header,
+        .full-height header .view {
+            height: 1040px;
+        }
+    }
+
+    .card{
+        margin-bottom: 50px;
+    }
+
+.jumbotron{
+    background: rgba(185, 168, 185, 0.4) !important;
+}
+
+.home-text{
+    font-weight: bold !important;
+    font-size: 25px !important;
+    color: white !important;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+    color: white !important;
+    font-size: 25px !important;
+}
+
+.btn-lg{
+    width: 20em !important;
+    height: 7em !important;
+    font-size: 26px !important;
+    vertical-align: middle !important;
+}
+
+
+@media (max-width: 740px) {
+    .btn-lg{
+        width: 17em !important;
+        height: 6em !important;
+        font-size: 26px !important;
+    }
+
+}
+
+#nav-color{
+    background: rgb(7, 0, 4) !important;
+
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.d-block{
+    width:20em !important;
+    height:46em !important ;
+}
+
+.cara-text{
+    font-size: 30px !important;
+}
+
+.navbar-toggler-icon{
+    background: white !important;
+}
+
+.page-footer{
+    background: rgba(104, 69, 117, 0.651) !important;
+}
+
+.menu-head{
+    text-align-last: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    background: rgb(240, 146, 5);
+}
+
+.abt-head{
+    text-align-last: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    background: rgb(121, 62, 148);
+}
+
+.cart-head{
+    text-align-last: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    background: rgba(81, 41, 156, 0.829);
+}
+
+.menu-head2{
+    text-align-last: center;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(240, 146, 5);
+    margin: 0;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    background: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+    border-radius: 3px;
+    background: #dc3545;
+}
+.spacer-xs{
+    padding: 20px 0;
+}
+
+.form-head{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form-pad{
+    padding-bottom: 10px;
+}
+
+.head-pad{
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.text-pad{
+    padding: 10px;
+}
+
+.cus-btn{
+    width: 19em !important;
+}
+
+.cus-image{
+    padding: 40px;
+}
+
+.cus-price{
+    padding-bottom: 20px !important;
+}
+
+.menu-text{
+    text-align: center ;
+    padding: 10px;
+}
+
+.menu-text2{
+    text-align: center;
+}
+
+.menu-con{
+    background:white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.menu-btn{
+    width: 12em;
+    margin: 10px;
+}
+
+.menu-img{
+    margin-top: 10px;
+}
+
+.menu-con2{
+    background: rgb(240, 146, 5);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn1{
+padding-left: 10px !important;
+padding-right: 10px !important;
+}
+
+
+.abt-h4{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.abt-p{
+    color: white;
+    text-align: justify;
+}
+
+.abt-jumbo{
+    background: rgba(104, 69, 117, 0.651) !important;
+}
+
+.img-abt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width:400px ;
+    margin-bottom: 30px ;
+}
+
+.promo-jumbo{
+    background:rgb(126, 92, 206, 0.651) !important;
+    width: 73em !important;
+
+}
+
+.promo-head{
+    text-align-last: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    background: rgb(126, 92, 206);
+}
+
+.promo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width:250px ;
+    margin-bottom: 30px ;
+}
+
+.jumbo-cart{
+    width: 69em !important ;
+    background: rgba(98, 61, 167, 0.651) !important;
+}
+
+.jumbo-item{
+background: rgba(216, 25, 41, 0.651) !important;
+}
+
+
+.cart-h4{
+    text-align: center;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 1px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.cart-row{
+    margin-bottom: 20px;
+}
+
+.cart1-h4{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.item-h4{
+    color: white;
+    font-weight: bold;
+}
+
+.item2-h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-light{
+    width: 71px !important;
+}
+
+.btn-checkout{
+    text-align: center;
+}
+
+.btn-chk{
+    width: 400px;
+    font-size: 30px !important;
+    text-transform: uppercase !important;
+    margin-bottom: 20px;
+}
+
+.img-row{
+    padding-bottom: 20px ;
+}
+
+.ad-btn{
+    margin: 10px;
+    width: 300px;
+    height: 60px;
+    text-transform: uppercase;
+}
+
+.adm-tbl{
+    text-align: center;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+
+.jumbo-addpct{
+    background-color: #ffffff !important;
+}
+
+.add-pdct-btn{
+    width: 17em !important;
+    padding: 10px 10px 10px 10px !important;
+} 
+
+.ratejumbo{
+    background-color: black !important;
+}
